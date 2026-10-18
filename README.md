@@ -12,11 +12,15 @@ A fully autonomous, **policy-constrained** multi-agent system that searches jobs
 
 📄 **Project write-up:** [`Fully-Autonomous-Job-Search-Auto-Apply-AI-Agent-for-Students.pdf`](./Fully-Autonomous-Job-Search-Auto-Apply-AI-Agent-for-Students.pdf)
 
----
+
+
+*<img width="1250" height="641" alt="image" src="https://github.com/user-attachments/assets/21193ff7-b063-4031-bed6-ac057282f69a" />*
+
 
 ## The Problem
 
 Applying for internships and jobs is repetitive, slow, and easy to get wrong. Students send the same resume everywhere, skim hundreds of listings, and write cover notes by hand. The obvious fix, "let an LLM do it," creates a new problem: models happily **fabricate** skills, experience, and credentials, and unconstrained automation can spam applications nobody reviewed.
+
 
 ## Our Approach
 
@@ -148,9 +152,6 @@ Open `http://localhost:3000`.
 2. Get ranked, automatable jobs → `POST /match-jobs-ai`
 3. Generate grounded notes for the queue → `POST /generate-short-notes-from-queue`
 4. Submit the batch in the sandbox → `POST /sandbox-apply-batch`
-
-*<img width="1250" height="641" alt="image" src="https://github.com/user-attachments/assets/21193ff7-b063-4031-bed6-ac057282f69a" />*
-
 
 ---
 
